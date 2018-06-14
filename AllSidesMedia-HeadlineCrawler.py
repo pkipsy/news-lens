@@ -1,7 +1,10 @@
 '''
 All Sides Media Spider
 
-This spider has been designed to crawl the All Sides website to extract information about the last two years of headline roundups. For every roundup, it harvests the All Sides' headline and short summary, as well as information about the linked articles, including - their source, source's bias, source's headline, and url.
+This spider has been designed to crawl the All Sides website to extract information
+about the last two years of headline roundups. For every roundup, it harvests the
+All Sides' headline and short summary, as well as information about the linked articles,
+including - their source, source's bias, source's headline, and url.
 
 Each article's url information can then be fed into NewsPlease to extract its content.
 '''
@@ -14,7 +17,8 @@ import re
 import pickle
 
 '''
-All Sides has a running list of all their headline roundups over the years. Here, we begin by identifying the pages that contain headline roundups from the last two years.
+All Sides has a running list of all their headline roundups over the years. Here, we
+begin by identifying the pages that contain headline roundups from the last two years.
 '''
 
 #harvest a seed list of pages to crawl from All Sides Media
@@ -32,7 +36,8 @@ def get_seed(n):
 get_seed(56)
 
 '''
-Next, we iterate through these pages, building out our own list of links to all the relevant roundups.
+Next, we iterate through these pages, building out our own list of links to all the
+relevant roundups.
 '''
 
 # set up BeautifulSoup to run over All Sides Media
@@ -68,7 +73,8 @@ def harvest_links(pages):
 harvest_links(pages)
 
 '''
-The following function harvests links to all of the news articles listed in All Sides' daily headline roundup.
+The following function harvests links to all of the news articles listed in All Sides'
+daily headline roundup.
 '''
 
 # get all news article links
@@ -97,7 +103,8 @@ for item in all_articles:
     link_file.write("%s\n" % item)
 
 '''
-The following functions harvest detailed content on the news articles listed in All Sides' daily headline roundup and save them to a .csv file.
+The following functions harvest detailed content on the news articles listed in All
+Sides' daily headline roundup and save them to a .csv file.
 '''
 
 # helper function to encode strings for csv
@@ -118,7 +125,8 @@ def extract_content(link_harvest):
     # open csv file to store info
     file = open('allsides-content.csv', 'w')
     fileWriter = csv.writer(file, delimiter=' ', quotechar='|')
-    fileWriter.writerow(['Date', 'AllMedia_Headline', 'Description', 'Source_Name','Source_Bias', 'Source_Headline', 'Source_Link'])
+    fileWriter.writerow(['Date', 'AllMedia_Headline', 'Description', 'Source_Name',
+    'Source_Bias', 'Source_Headline', 'Source_Link'])
 
     try:
         for link_content in link_harvest:
