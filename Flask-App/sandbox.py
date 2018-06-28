@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # !pip3 install news-please
 # !pip3 install fuzzywuzzy
 # !pip3 install python-Levenshtein
@@ -14,6 +17,7 @@ import requests
 import json
 import pandas as pd
 import csv
+import lxml
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 

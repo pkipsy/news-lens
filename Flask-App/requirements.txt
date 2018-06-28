@@ -1,0 +1,11 @@
+Flask==0.12.2
+Werkzeug<0.13.0,>=0.12.0
+flask_bootstrap
+flask_moment
+flask_wtf
+wtforms
+https://s3-us-west-2.amazonaws.com/jdimatteo-personal-public-readaccess/nltk-2.0.5-https-distribute.tar.gz
+lxml
+news-please
+numpy==1.13.3
+pandas==0.21.0

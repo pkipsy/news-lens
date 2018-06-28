@@ -1,0 +1,56 @@
+Metadata-Version: 2.0
+Name: news-please
+Version: 1.2.40
+Summary: news-please is an open source easy-to-use news extractor that just works.
+Home-page: https://github.com/fhamborg/news-please
+Author: Felix Hamborg
+Author-email: felix.hamborg@uni-konstanz.de
+License: Apache License 2.0
+Download-URL: https://github.com/fhamborg/news-please
+Keywords: news crawler news scraper news extractor crawler extractor scraper information retrieval
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Dist: Scrapy (>=1.1.0)
+Requires-Dist: PyMySQL (>=0.7.9)
+Requires-Dist: hjson (>=1.5.8)
+Requires-Dist: elasticsearch (>=2.4)
+Requires-Dist: beautifulsoup4 (>=4.3.2)
+Requires-Dist: readability-lxml (>=0.6.2)
+Requires-Dist: langdetect (>=1.0.7)
+Requires-Dist: python-dateutil (>=2.4.0)
+Requires-Dist: plac (>=0.9.6)
+Requires-Dist: dotmap (>=1.2.17)
+Requires-Dist: readability-lxml (>=0.6.2)
+Requires-Dist: PyDispatcher (>=2.0.5)
+Requires-Dist: warcio (>=1.3.3)
+Requires-Dist: ago (>=0.0.9)
+Requires-Dist: six (>=1.10.0)
+Requires-Dist: lxml (>=3.3.5)
+Requires-Dist: awscli (>=1.11.117)
+Requires-Dist: hurry.filesize (>=0.9)
+Requires-Dist: newspaper; python_version == "2.7"
+Requires-Dist: future (>=0.16.0); python_version == "2.7"
+Requires-Dist: hurry.filesize (>=0.9); python_version == "2.7"
+Requires-Dist: newspaper3k; python_version >= "3.0"
+Requires-Dist: pywin32 (>=220); sys_platform == "win32"
+
+news-please is an open source, easy-to-use news crawler that extracts structured information from almost any news website. It can follow recursively internal hyperlinks and read RSS feeds to fetch both most recent and also old, archived articles. You only need to provide the root URL of the news website. Furthermore, its API allows developers to access the exctraction functionality within their software. news-please also implements a workflow optimized for the news archive provided by commoncrawl.org, allowing users to efficiently crawl and extract news articles including various filter options.
+
+

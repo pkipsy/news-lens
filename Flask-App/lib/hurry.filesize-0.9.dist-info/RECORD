@@ -1,0 +1,16 @@
+hurry.filesize-0.9-py2.7-nspkg.pth,sha256=USgFDWowG0hAMblJqy4J8Wjg_WGljd9Hu85dvHJaF0M,534
+hurry/filesize/README.txt,sha256=s1356VnRa4GTVc0BbTbE7gyEGk2pjngV3p5towayWCA,1113
+hurry/filesize/__init__.py,sha256=YkDfVSUKgHz7ZnvvB4c30VMHMgTIzXyrtyFhdb7GLVQ,122
+hurry/filesize/filesize.py,sha256=EhfDQTG3BBxuGkbxhmwsnJ9YG8ASQiVOh0CehUTRWrc,2166
+hurry/filesize/tests.py,sha256=fYMXWeJGKgl697X7Q1x1xYmDfGirgMBdEjvUCo1qpUQ,196
+hurry.filesize-0.9.dist-info/DESCRIPTION.rst,sha256=16Aq2MWYl-BujJTIUwRF3bp8tDjfU-jRRcf8H9Cg-5M,1213
+hurry.filesize-0.9.dist-info/METADATA,sha256=3DAPajMlBF7MFptrrFRZe741XVcu-Wdbwskgc_zyG6Y,1658
+hurry.filesize-0.9.dist-info/RECORD,,
+hurry.filesize-0.9.dist-info/WHEEL,sha256=F38j99qfcoNzHo88G-kisXWtI3MVVEd9JWjaAPcHMTc,93
+hurry.filesize-0.9.dist-info/metadata.json,sha256=LxJmbgeUYZv9kiAcA2MVeZsUQbCx3fxjJJprn4QfThM,642
+hurry.filesize-0.9.dist-info/namespace_packages.txt,sha256=9f_1Zibynhg1o5BX6EzcsPcvgVM_GjoIzSMqxzPrZ1M,6
+hurry.filesize-0.9.dist-info/top_level.txt,sha256=9f_1Zibynhg1o5BX6EzcsPcvgVM_GjoIzSMqxzPrZ1M,6
+hurry.filesize-0.9.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+hurry/filesize/tests.pyc,,
+hurry/filesize/__init__.pyc,,
+hurry/filesize/filesize.pyc,,
