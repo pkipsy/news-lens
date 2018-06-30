@@ -1,0 +1,101 @@
+	orgs	sources	scores
+0	Times of India	timesofindia.indiatimes.com	0.04
+1	The Economist	economist.com	0.12
+2	North Jersey.com	northjersey.com	0.14
+3	Orange Country Register	ocregister.com	0.15
+4	San Jose Mercury News	mercurynews.com	0.17
+5	NewJersey.com	nj.com	0.17
+6	San Francisco Chronicle	sfgate.com	0.19
+7	Baltimore Sun	baltimoresun.com	0.19
+8	Hartford Courant	courant.com	0.22
+9	Jerusalem Post	jpost.com	0.25
+10	PR Newswire	prnewswire.com	0.27
+11	South Florida Sun Sentinal	sun-sentinel.com	0.27
+12	National Post (CA)	nationalpost.com	0.28
+13	Tornoto Star	thestar.com	0.28
+14	BBC (UK)	bbc.co.uk	0.30
+15	Wicked Local (Boston)	wickedlocal.com	0.30
+16	New York Times	nytimes.com	0.31
+17	The Independent	independent.co.uk	0.32
+18	Philadelphia Herald	philly.com	0.32
+19	Hollywood Reporter	hollywoodreporter.com	0.33
+20	Miami Herald	miamiherald.com	0.35
+21	Huffington Post	huffingtonpost.com	0.35
+22	The Guardian	guardian.co.uk	0.37
+23	Washington Post	washingtonpost.com	0.37
+24	Wall Street Journal News.com (AU)	online.wsj.com	0.39
+25	Daily Kos	news.com.au	0.39
+26	Bloomberg	dailykos.com	0.39
+27	Daily Finance	bloomberg.com	0.39
+28	Syracuse Gazette	dailyfinance.com	0.39
+29	US News and World Report	syracuse.com	0.39
+30	Times Union (Albany)	usnews.com	0.39
+31	Time Magazine	timesunion.com	0.40
+32	Reuters	time.com	0.40
+33	Daily Telegraph (UK)	reuters.com	0.41
+34	Business Week	telegraph.co.uk	0.41
+35	CNN	businessweek.com	0.42
+36	Politico	cnn.com	0.42
+37	The Atlantic	politico.com	0.42
+38	National Journal	theatlantic.com	0.42
+39	Alternet	nationaljournal.com	0.43
+40	Atlanta Journal	alternet.org	0.43
+41	Constitution	ajc.com	0.44
+42	Forbes	forbes.com	0.44
+43	Seattle Times	seattletimes.com	0.44
+44	The Raw Story	rawstory.com	0.44
+45	News Day	newsday.com	0.44
+46	CBS	cbsnews.com	0.45
+47	Russia Today	rt.com	0.45
+48	The Epoch Times	theepochtimes.com	0.46
+49	Los Angleles Times	latimes.com	0.47
+50	Christian Science Monitor	csmonitor.com	0.47
+51	Real Clear Politics	realclearpolitics.com	0.47
+52	USA Today	usatoday.com	0.47
+53	CNBC	cnbc.com	0.47
+54	The Daily Mail (UK)	dailymail.co.uk	0.47
+55	Daily Mirror (UK)	mirror.co.uk	0.47
+56	Yahoo! News	news.yahoo.com	0.47
+57	ABC News	abcnews.go.com	0.48
+58	United Press International	upi.com	0.48
+59	Chicago Tribune	chicagotribune.com	0.49
+60	Associated Press	ap.org	0.50
+61	NBC News	nbcnews.com	0.50
+62	Chicago Sun-Times	suntimes.com	0.51
+63	Detriot Free Press	freep.com	0.52
+64	Arizona Republics	azcentral.com	0.53
+65	Tamba Bay Times	tampabay.com	0.54
+66	Orlando Sentinel	orlandosentinel.com	0.54
+67	The Hill	thehill.com	0.57
+68	The National Review	nationalreview.com	0.57
+69	SKY	news.sky.com	0.58
+70	Detroit News	detroitnews.com	0.59
+71	The Daily Express (UK)	express.co.uk	0.59
+72	The Weekly Standard	weeklystandard.com	0.59
+73	Fox News	foxnews.com	0.59
+74	Washington Times	washingtontimes.com	0.59
+75	Milwaukee Journal Sentinel	jsonline.com	0.61
+76	Newsmax	newsmax.com	0.61
+77	factcheck.org	factcheck.org	0.62
+78	Reason Magazine	reason.com	0.63
+79	Washington Examiner	washingtonexaminer.com	0.63
+80	E Canada Now	ecanadanow.com	0.63
+81	American Thinker	americanthinker.com	0.65
+82	St. Paul Pioneer Press	twincities.com	0.67
+83	Florida Times Union	jacksonville.com	0.67
+84	Opposing Views	opposingviews.com	0.67
+85	Houston Chronicle	chron.com	0.67
+86	Minneapolis Star Tribune	startribune.com	0.68
+87	Breitbart	breitbart.com	0.70
+88	Ft. Worth Star-Telegram	star-telegram.com	0.74
+89	St. Louis Post-Dispatch	stltoday.com	0.75
+90	San Antonio Express News	mysanantonio.com	0.77
+91	Denver Post	denverpost.com	0.80
+92	Pittsburg Tribune-Review	triblive.com	0.85
+93	Salt Lake Tribune	sltrib.com	0.85
+94	Dallas Morning News	dallasnews.com	0.86
+95	Kansas City Star	kansascity.com	0.93
+96	Deseret News (Salt Lake City)	deseretnews.com	0.94
+97	Topix	topix.com	0.96
+98	Knoxville News Sentinel	knoxnews.com	0.96
+99	Huntsville News	al.com	1.00
