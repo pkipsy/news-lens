@@ -1,119 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Scrollytelling with position sticky</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
 <body>
 
-<style>
-/* Container holding the image and the text */
-.container {
-    position: relative;
-}
+  <h1>Scrollytelling with position: sticky</h1>
 
-/* Bottom right text */
-.text-block {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    background-color: black;
-    color: white;
-    padding-left: 0px;
-    padding-right: 0px;
-}
+<section>
+  
+  <figure>
+    <p>A sticky item</p>
+  </figure>
+  
+  <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+  </article>
+  
+</section>
 
-.row.display-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-.thumbnail {
-  height: 100%;
-}
+<section>
+  
+  <figure>
+    <p>A second sticky item</p>
+  </figure>
+  
+  <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+  </article>
+  
+</section>
 
-/* extra positioning */
-.thumbnail {
-  display: flex;
-  flex-direction: column;
-}
+<section>
+  
+  <figure>
+    <p>A third fixed item</p>
+  </figure>
+  
+  <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+  </article>
+  
+</section>
 
-.thumbnail .caption {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
 
-</style>
-
-<div class="page-header">
-  <h1>News Lens v 0.1</h1>
-  <h2>Dive into the Data</h2>
-</div>
-<div class="page-content">
-
-  <div class="container">
-    <center>
-    <a href="https://pkipsy.github.io/news-lens/AllSides_Scattertext_RankDefault.html" target="_blank" >
-    <img src="https://pkipsy.github.io/news-lens/images/scattertext.png" style="width:50%;">  </a>
-    <div class="content">
-      <h4>ScatterText</h4>
-      <p>Visualizing Differences Between Left & Right Leaning Media</p>
-    </center>
-    </div>
-  </div><br><br>
-
-      <div class="container">
-        <center>
-        <a href="https://pkipsy.github.io/news-lens/LDA-left_viz.html" target="_blank" >
-        <img src="https://pkipsy.github.io/news-lens/images/LDA-left.png" style="width:50%;">  </a>
-        <div class="content">
-          <h4>pyLDAvis</h4>
-          <p>Topic Model of Left Leaning Media</p>
-        </center>
-        </div>
-      </div><br><br>
-
-      <div class="container">
-        <center>
-      <a href="https://pkipsy.github.io/news-lens/LDA-right_viz.html" target="_blank" >
-      <img src="https://pkipsy.github.io/news-lens/images/LDA-right.png" style="width:50%;"></a>
-      <div class="content">
-        <h4>pyLDAvis</h4>
-        <p>Topic Model of Right Leaning Media</p>
-      </center>
-      </div>
-      </div><br><br>
-
-      <div class="container">
-        <center>
-      <a href="https://pkipsy.github.io/news-lens/Headlines.htm" target="_blank" >
-      <img src="https://pkipsy.github.io/news-lens/images/data.png" style="width:50%;"></a>
-      <div class="content">
-        <h4>All Sides Media</h4>
-        <p>Distribution of Media Organizations</p>
-      </center>
-      </div>
-    </div><br><br>
-
-    <div class="container">
-      <center>
-    <a href="https://pkipsy.github.io/news-lens/Time-Series.htm" target="_blank" >
-    <img src="https://pkipsy.github.io/news-lens/images/time-series.png" style="width:50%;"></a>
-    <div class="content">
-      <h4>All Sides Headlines</h4>
-      <p>Media Represented over Time</p>
-    </center>
-    </div>
-  </div><br><br>
-
-      <div class="container">
-        <center>
-      <img src="https://pkipsy.github.io/news-lens/images/sentiment-icon.png" style="width:50%;"></a>
-      <div class="content">
-        <h4>Google NLP API</h4>
-        <p>Sentiment Analysis by Political Bias</p>
-      </center>
-      </div>
-      </div><br><br>
-
-</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+  
+  
 
 </body>
+
 </html>
