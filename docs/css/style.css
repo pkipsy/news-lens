@@ -1,9 +1,6 @@
-$top-offset: 3rem;
-$bp: 35rem;
-
 body {
   background-color: #501B1D;
-  margin: $top-offset auto;
+  margin: 3rem auto;
   max-width: 100rem;
 }
 
@@ -18,39 +15,37 @@ section {
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
-
-  @media screen and (min-width: $bp) {
+}
+@media screen and (min-width: 35rem) {
+  section {
     flex-direction: row;
   }
-
-  > * {
-    flex: 1;
-  }
+}
+section > * {
+  flex: 1;
 }
 
 article {
   padding: 0 2rem;
-
-  a {
+}
+article a {
   text-decoration: none;
   color: #83677B;
 }
-
-  p {
-    font-family: Palatino;
-    color: #B1A296;
-    font-size: 1.1rem;
-    line-height: 1.8;
-
-    @media screen and (min-width: $bp) {
-      margin: 0;
-    }
-
-    &:not(:last-of-type) {
-      @media screen and (min-width: $bp) {
-       min-height: 90vh;
-      }
-    }
+article p {
+  font-family: Palatino;
+  color: #B1A296;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+@media screen and (min-width: 35rem) {
+  article p {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 35rem) {
+  article p:not(:last-of-type) {
+    min-height: 90vh;
   }
 }
 
@@ -63,9 +58,11 @@ figure {
   margin: 0;
   width: 100%;
   justify-content: center;
-  top: $top-offset;
-
-  @media screen and (min-width: $bp) {
+  top: 3rem;
+}
+@media screen and (min-width: 35rem) {
+  figure {
+    position: -webkit-sticky;
     position: sticky;
   }
 }
