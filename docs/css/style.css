@@ -1,61 +1,71 @@
+$top-offset: 3rem;
+$bp: 35rem;
+
 body {
-  background-color: ghostwhite;
-  margin: 3rem auto;
-  max-width: 60rem;
+  background-color: #501B1D;
+  margin: $top-offset auto;
+  max-width: 100rem;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+  color: white;
+  font-family: 'FFF Tusj Bold', arial;
 }
 
 section {
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
-}
-@media screen and (min-width: 35rem) {
-  section {
+
+  @media screen and (min-width: $bp) {
     flex-direction: row;
   }
-}
-section > * {
-  flex: 1;
+
+  > * {
+    flex: 1;
+  }
 }
 
 article {
-  padding: 0 1rem;
+  padding: 0 2rem;
+
+  a {
+  text-decoration: none;
+  color: #83677B;
 }
-article p {
-  font-family: Georgia;
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
-@media screen and (min-width: 35rem) {
-  article p {
-    margin: 0;
-  }
-}
-@media screen and (min-width: 35rem) {
-  article p:not(:last-of-type) {
-    min-height: 90vh;
+
+  p {
+    font-family: Palatino;
+    color: #B1A296;
+    font-size: 1.1rem;
+    line-height: 1.8;
+
+    @media screen and (min-width: $bp) {
+      margin: 0;
+    }
+
+    &:not(:last-of-type) {
+      @media screen and (min-width: $bp) {
+       min-height: 90vh;
+      }
+    }
   }
 }
 
 figure {
   align-items: center;
   align-self: flex-start;
-  background-color: #DAF7A6;
+  background-color: #64484C;
   display: flex;
-  height: 10rem;
+  height: 29rem;
   margin: 0;
   width: 100%;
   justify-content: center;
-  top: 3rem;
-}
-@media screen and (min-width: 35rem) {
-  figure {
-    position: -webkit-sticky;
+  top: $top-offset;
+
+  @media screen and (min-width: $bp) {
     position: sticky;
   }
 }
