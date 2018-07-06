@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}News Lens{% endblock %}
+
+<head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script></head>
+
+{% block page_content %}
+<div class="page-header">
+    <h1>News Lens v 0.1</h1>
+    <h2>Identifying Bias in News Media</h2>
+    <img src="https://i2.wp.com/www.mikerindersblog.org/wp-content/uploads/2018/03/bubble-burst.jpg?ssl=1"></img>
+    <br>
+</div>
+
+<div class="container">
+
+	<div class="card" style="width: 100%;"><div class="card-body">
+	<form method="POST" action="/select_results">
+    Select a recent news story: <br>
+	<ul class="list-group">
+		<li class="list-group-item"><select name="issues">
+			<option value="http://www.foxnews.com/politics/2018/07/05/trump-completes-interviews-supreme-court-candidates-as-shortlist-shrinks.html">Trump completes interviews of Supreme Court candidates</option>
+			<option value="http://www.foxnews.com/politics/2018/07/05/scott-pruitt-resigns-as-epa-chief-trump-announces.html">Scott Pruitt resigns as EPA chief</option>
+			<option value="http://www.foxnews.com/politics/2018/07/05/federal-judge-strikes-down-troubling-california-sanctuary-state-law-upholds-two-others.html">Federal judge strikes down California sanctuary state law</option>
+		</select> </li><br><input class="btn btn-danger" type="submit" name="Submit"></input>
+</form></div></div>
+
+{% endblock %}

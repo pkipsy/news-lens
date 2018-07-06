@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}News Lens{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>News Lens v 0.1</h1>
+    <h2>Identifying Bias in News Media</h2>
+    <img src="https://i2.wp.com/www.mikerindersblog.org/wp-content/uploads/2018/03/bubble-burst.jpg?ssl=1"></img>
+    <br>
+</div>
+
+Select a recent <a href="select">news story</a>. Or, enter your own link:
+{{ wtf.quick_form(form) }}
+
+
+{% endblock %}

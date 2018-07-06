@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}News Lens{% endblock %}
+
+{% block page_content %}
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<div class="page-header">
+    <h1>News Lens Results</h1>
+</div>
+<div class="page-content">
+
+    <h3>URL Input</h3>
+
+    <div class="panel panel-default">
+      <div class="panel-body"><h4><center>Bias Score: {{ bias }}</center><h4></div>
+    </div>
+
+    <img src="{{ image }}" style="width:100%"/>
+    <h3>{{ title }}</h3>
+    <p><b>{{ source}}</b></p>
+
+    <h3>Related News Coverage</h3>
+<div class="row">
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{ story_url1 }}">
+       <img src="{{ story_image1 }}" style="width:100%"/>
+            </a>
+       <div class="caption">
+         <p><b>{{ story_source1 }}</b></p>
+         <p>{{ story_title1 }}</p>
+         <p><b>Estimated Bias:</b> {{ story_bias1 }}</p>
+       </div>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{ story_url2 }}">
+       <img src="{{ story_image2 }}" style="width:100%"/>
+            </a>
+       <div class="caption">
+         <p><b>{{ story_source2 }}</b></p>
+         <p>{{ story_title2 }}</p>
+         <p><b>Estimated Bias:</b> {{ story_bias2 }}</p>
+       </div>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{ story_url3 }}">
+       <img src="{{ story_image3 }}" style="width:100%"/>
+            </a>
+       <div class="caption">
+         <p><b>{{ story_source3 }}</b></p>
+         <p>{{ story_title3 }}</p>
+         <p><b>Estimated Bias:</b> {{ story_bias3 }}</p>
+       </div>
+   </div>
+ </div>
+ </div>
+
+ <h3>Relevant Wikipedia Articles</h3>
+<div class="row">
+<div class="col-md-4">
+<div class="thumbnail">
+  <a href="{{ wiki_url1 }}">
+    <div class="caption">
+      <p>{{ wiki_title1 }}</p>
+      </a>
+    </div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="thumbnail">
+  <a href="{{ wiki_url2 }}">
+    <div class="caption">
+      <p>{{ wiki_title2 }}</p>
+      </a>
+    </div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="thumbnail">
+  <a href="{{ wiki_url3 }}">
+    <div class="caption">
+      <p>{{ wiki_title3 }}</p>
+      </a>
+    </div>
+</div>
+</div>
+</div>
+
+ <h3>Visualize the Conversation</h3>
+
+<iframe src="scattertext", width = 1200, height=700></iframe>
+
+</div>
+
+{% endblock %}

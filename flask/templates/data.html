@@ -1,0 +1,128 @@
+<head>
+  <meta charset="UTF-8">
+  <title>NewsLens: Dive into the Data</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://pkipsy.github.io/news-lens/css/style.css">
+
+
+</head>
+
+<body>
+
+  <h1>Dive into the Data</h1>
+
+<section>
+
+  <figure>
+    <p><center><img src="https://pkipsy.github.io/news-lens/images/newslens.png" width=95%></a></center></p>
+  </figure>
+
+  <article>
+    <p>Here you can take a "deep dive" into the text data behind the NewsLens classifier. To browse the interactive visualizations, simply scroll down and click links of interest.</p>
+    <p></p>
+  </article>
+
+</section>
+
+
+<section>
+
+  <figure>
+    <p><center><a href="https://pkipsy.github.io/news-lens/AllSides_Scattertext_RankDefault.html" target="_blank"><img src="https://pkipsy.github.io/news-lens/images/scattertext.png" width=95%></a></center></p>
+  </figure>
+
+  <article>
+    <p>This visualization uses the open source Python library, <a href="https://github.com/JasonKessler/scattertext" target="_blank">Scattertext</a>, to illustrate differences between left and right-leaning media. It identifies key topics that are characteristic of both sides, as well as topics that are used more frequently by one side or the other. These differences are visible for both very common words (like <i>Donald Trump</i>) and rarer words (like <i>CBO</i>).
+
+    <br><br>The data for this visualization is drawn from two-years of headlines scraped from the bipartisan organization <a href="https://www.allsides.com/unbiased-balanced-news" target="_blank">All Sides Media</a>. All Sides looks to provide a more balanced approach to news coverage by rounding up the top headlines of the day and showcasing reporting of these stories by outlets on the left, right, and center.</p>
+
+    <p>The headline crawl yielded more than <b>3,000</b> articles, from over 100 of the most influential media organizations in the US today, including the BBC, Fox News, and the New York Times.
+
+    <br><br>You can open this visualization in a new tab by clicking <a href="https://pkipsy.github.io/news-lens/AllSides_Scattertext_RankDefault.html" target="_blank">here</a>.</p>
+
+    <p></p>
+  </article>
+
+</section>
+
+<section>
+
+  <figure>
+    <p><center><a href="https://pkipsy.github.io/news-lens/LDA-left_viz.html" target="_blank"><img src="https://pkipsy.github.io/news-lens/images/LDA-left.png" width=90%></a></center></p>
+  </figure>
+
+  <article>
+    <p>This next set of visualizations relies on the open source Python library, <a href=https://github.com/bmabey/pyLDAvis target="_blank">PyLDAviz</a>, for interactive topic model visualization. </p>
+
+<p>Separate models and visualizations have been created for <a href="https://pkipsy.github.io/news-lens/LDA-left_viz.html" target="_blank">left</a>, <a href="https://pkipsy.github.io/news-lens/LDA-right_viz.html" target="_blank">right</a>, and <a href="https://pkipsy.github.io/news-lens/LDA-center_viz.html" target="_blank">center</a>-leaning media articles, from the All Sides headline crawl.</p>
+
+    <p>Each visualization makes it possible to explore the latent topics in these texts, along with the words that are most closely associated with them. The topics are ordered by their prominence in the texts. <br><br>There is a lot to uncover! The <a href="https://pkipsy.github.io/news-lens/LDA-left_viz.html#topic=3&lambda=1&term=" target="_blank">Russia investigation</a>, <a href="https://pkipsy.github.io/news-lens/LDA-left_viz.html#topic=6&lambda=1&term=" target="_blank">school shootings</a>, <a href="https://pkipsy.github.io/news-lens/LDA-right_viz.html#topic=5&lambda=1&term=" target="_blank">terrorism</a> and <a href="https://pkipsy.github.io/news-lens/LDA-center_viz.html#topic=10&lambda=1&term=" target="_blank">climate change</a>, are just a few of the topics that vary in their coverage across party lines.</p>
+
+
+
+  <p></p>
+  </article>
+
+</section>
+
+<section>
+
+  <figure>
+    <p><center><img src="https://pkipsy.github.io/news-lens/images/data.png" width=95%></center></a></p>
+  </figure>
+
+  <article>
+    <p>Want to take a closer look at the media outlets in our dataset? This <a href="https://pkipsy.github.io/news-lens/Headlines.htm" target="_blank">interactive visualization</a> made with <i>plotly</i> shows their distribution across the political spectrum. Each bubble corresponds to a different news outlet.</p>
+
+<p></p>
+</article>
+
+</section>
+
+<section>
+
+  <figure>
+    <p><center><img src="https://pkipsy.github.io/news-lens/images/time-series.png" width=95%></center></a></p>
+  </figure>
+
+  <article>
+    <p>With this time series <a href="http://pkipsy.github.io/news-lens/Time-Series.htm" target="_blank">visualization</a>, you can inspect how differently biased outlets were sampled over the time-span of the crawl.</p>
+
+<p></p>
+</article>
+
+</section>
+
+<section>
+
+  <figure>
+    <p><center><img src="https://pkipsy.github.io/news-lens/images/boilerplate.jpg" width=40%></center></a></p>
+  </figure>
+
+  <article>
+<p>This simple chart shows 25 of the most informative words for liberal and conservative texts. Nearly half are news boilerplate. Identifying and removing boilerplate is thus essential for building an "honest" classifier.
+  <br><br>Without this preprocessing step, the idiosyncracies of various news sites "tip off" the classifier. The likely consequence? The classifier will be less successful at generalizing to novel sources.</p>
+<p></p>
+  </article>
+
+</section>
+
+<section>
+
+  <figure>
+    <p><center><img src="https://pkipsy.github.io/news-lens/images/sentiment-icon.png" width=95%></center></a></p>
+  </figure>
+
+  <article>
+    <p>Finally, this <a href="https://seaborn.pydata.org/examples/kde_joyplot.html" target="_blank">joy plot</a>, made with <i>seaborn</i>, shows the distribution of sentiment across these articles, an analysis made possible by Google's <a href="https://cloud.google.com/natural-language/" target="_blank">Natural Language REST API</a>.
+      <br><br>Clearly, there is not much difference in aggregate. More fine-grained analyses, such as looking at sentiment in relation to specific topics (like immigration or the economy), are required to construct useful features for classification.
+</article>
+
+</section>
+
+
+
+</body>
+
+</html>
