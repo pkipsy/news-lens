@@ -40,9 +40,9 @@
   </figure>
 
   <article>
-    <p>This visualization uses the open source Python library, <a href="https://github.com/JasonKessler/scattertext" target="_blank">Scattertext</a>, to illustrate differences between left and right-leaning media. It identifies key topics that are characteristic of both sides, as well as topics that are used more frequently by one side or the other. These differences are visible for both very common words (like <i>Donald Trump</i>) and rarer words (like <i>CBO</i>).</p>
+    <p>This visualization uses the open source Python library, <a href="https://github.com/JasonKessler/scattertext" target="_blank">Scattertext</a>, to illustrate differences between left and right-leaning media. It identifies key topics that are characteristic of both sides, as well as topics that are used more frequently by one side or the other. These differences are visible for both very common words (like <i>Donald Trump</i>) and rarer words (like <i>CBO</i>).
 
-    <p>The data for this visualization is drawn from two-years of headlines scraped from the bipartisan organization <a href="https://www.allsides.com/unbiased-balanced-news" target="_blank">All Sides Media</a>. All Sides looks to provide a more balanced approach to news coverage by rounding up the top headlines of the day and showcasing reporting of these stories by outlets on the left, right, and center.</p>
+    <br><br>The data for this visualization is drawn from two-years of headlines scraped from the bipartisan organization <a href="https://www.allsides.com/unbiased-balanced-news" target="_blank">All Sides Media</a>. All Sides looks to provide a more balanced approach to news coverage by rounding up the top headlines of the day and showcasing reporting of these stories by outlets on the left, right, and center.</p>
 
     <p>The headline crawl yielded more than <b>3,000</b> articles, from over 100 of the most influential media organizations in the US today, including the BBC, Fox News, and the New York Times.
 
@@ -108,8 +108,8 @@
   </figure>
 
   <article>
-<p>This simple chart shows 25 of the most informative n-grams for liberal and conservative texts. Nearly half are news boilerplate. As this illustrates, identifying and removing boilerplate is essential for building an "honest" classifier.
-  <br><br>When cleaning is not done, the idiosyncracies of various news sites "tip off" the classifier. The likely consequence? An impaired ability to generalize to novel sources.</p>
+<p>This simple chart shows 25 of the most informative words for liberal and conservative texts. Nearly half are news boilerplate. Identifying and removing boilerplate is thus essential for building an "honest" classifier.
+  <br><br>Without this preprocessing step, the idiosyncracies of various news sites "tip off" the classifier. The likely consequence? The classifier will be less successful at generalizing to novel sources.</p>
 <p></p>
   </article>
 
@@ -123,7 +123,7 @@
 
   <article>
     <p>Finally, this <a href="https://seaborn.pydata.org/examples/kde_joyplot.html" target="_blank">joy plot</a>, made with <i>seaborn</i>, shows the distribution of sentiment across these articles, an analysis made possible by Google's <a href="https://cloud.google.com/natural-language/" target="_blank">Natural Language REST API</a>.
-      <br><br>Clearly, there is not much difference in aggregate. More fine-grained analyses, such as looking at sentiment in relation to specific topics (like immigration or the economy), were required to construct useful features for classification.
+      <br><br>Clearly, there is not much difference in aggregate. More fine-grained analyses, such as looking at sentiment in relation to specific topics (like immigration or the economy), are required to construct useful features for classification.
 </article>
 
 </section>
