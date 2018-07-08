@@ -1,14 +1,16 @@
-from flask import Flask, render_template, session, redirect, url_for, request
+from flask import Flask, render_template, session, redirect, url_for
 from flask_bootstrap import Bootstrap
 from flask_moment import Moment
 from flask_wtf import FlaskForm
-from wtforms import Form, StringField, SubmitField, SelectField
+from wtforms import StringField, SubmitField
 from wtforms.validators import InputRequired,ValidationError
-
 from keysecret import keys
 from sandbox import *
 from scattertext_url import *
 import os
+
+app = Flask(__name__, instance_path=keys['path'])
+app.config['SECRET_KEY'] = keys['secret']
 
 bootstrap = Bootstrap(app)
 moment = Moment(app)
