@@ -1,22 +1,22 @@
 # News Scraping 
 
-### Beautiful Soup: All Sides Headline Crawler
+### Beautiful Soup: [All Sides Headline Crawler](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/01%20-%20AllSidesMedia-HeadlineCrawler.ipynb)
 This Beautiful Soup spider was designed to crawl the All Sides website to extract information about the last two years of headline roundups. 
 For every roundup, it harvests the All Sides' headline and short summary, as well as information about the linked articles, including - their source, source's bias, source's headline, and url.
 The scrape detailed in the notebook pulled ~3,500 news links.
 
-### NewsPlease: Article Extraction
+### NewsPlease: [Article Extraction](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/02%20-%20NewsPlease-ArticleExtraction.ipynb)
 Uses the open source Python library, NewsPlease, to extract information from articles harvested by the Beautiful Soup crawler.
 
-### BoilerPipe: Article Extraction
+### BoilerPipe: [Article Extraction](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/03%20-%20BoilerPipe-ArticleExtraction.ipynb)
 An alternative method for article extraction.
 
-### Google Results Scraper: Source ID
-Identifies the website url for all the news sources rated by All Sides Media
+### Google Results Scraper: [Source ID](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/04%20-%20Source-Classification.ipynb)
+Identifies the website url for all the news sources rated by All Sides Media.
 
-### Media Bias Score Comparison
+### Media Bias: [Score Comparison](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/05%20-%20FilterBubbles-MediaBias.ipynb)
 Compares All Sides Media bias scores to the numerical ratings reported in Filter Bubbles, Echo Chambers, and Online News Consumption.
 
-### Webhose.io Crawl
+### Webhose.io: [Recent News Crawl](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/06%20-%20Webhose-Scrape.ipynb)
 A series of crawls configured to extract English language texts published in the US over the last thirty days from select media organizations.
 The initial run pulled north of 30,000 news articles.
