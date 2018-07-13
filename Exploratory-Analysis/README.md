@@ -14,6 +14,7 @@ A simple exercise implementing topic models with gensim over political news arti
 ### fastText: [Text Classification](https://github.com/pkipsy/news-lens/blob/master/Exploratory-Analysis/TextClassification-fastText.ipynb)
 Runs Facebook's [fastText](https://github.com/facebookresearch/fastText/tree/master/python), an unsupervised learning algorithm for efficiently computing word embeddings.
 
-### [Model Comparison](https://github.com/pkipsy/news-lens/blob/master/Exploratory-Analysis/Model-Comparison.ipynb)
+### [Model Comparison](https://github.com/pkipsy/news-lens/blob/master/Exploratory-Analysis/Model-Comparison.ipynb)*
 Compares classification performance of a variety of learning algorithms (e.g., SVC, Bernoulli, Multinomial Naive Bayes, and word embeddings) and text transformations (bag of words vs TF-IDF).
-Simulations were computationally intensive, and run on Google Cloud's [Data Lab](https://cloud.google.com/datalab/).
+
+* Computationally intensive. Run on Google Cloud's [Data Lab](https://cloud.google.com/datalab/) or [Amazon's Sagemaker](https://aws.amazon.com/sagemaker/).
