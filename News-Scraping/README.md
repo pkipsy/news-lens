@@ -14,9 +14,6 @@ This notebook uses the open source Python library, [NewsPlease](https://github.c
 ### Google Results Scraper: [Source ID](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/04%20-%20Source-Classification.ipynb)
 [Google Results Scraper](https://github.com/NikolaiT/GoogleScraper) is deployed to identify the website url for all the news sources rated by All Sides Media.
 
-### Media Bias: [Score Comparison](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/05%20-%20FilterBubbles-MediaBias.ipynb)
-Compares All Sides Media bias scores to the numerical ratings reported in [Filter Bubbles, Echo Chambers, and Online News Consumption](http://sethrf.com/files/bubbles.pdf).
-
 ### Webhose.io: [Recent News Crawl](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/06%20-%20Webhose-Scrape.ipynb)
 A series of crawls configured to extract English language texts published in the US over the last thirty days from select media organizations, using [Webhose.io](https://webhose.io/web-content-api).
 The initial run pulled north of 30,000 news articles.
