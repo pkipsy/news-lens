@@ -11,11 +11,11 @@ Performs named-entity recognition with Google's [Natural Language API](https://c
 Extracts and classifies entities in text collections and records their relative salience.
 Plots differences between conservative and liberal entities.
 
-### Gensim: [Topic Modeling](https://github.com/pkipsy/news-lens/blob/master/Exploratory-Analysis/Topic-Modeling.ipynb)
+### gensim: [Topic Modeling](https://github.com/pkipsy/news-lens/blob/master/Exploratory-Analysis/Topic-Modeling.ipynb)
 A simple exercise implementing topic models with [gensim](https://radimrehurek.com/gensim/) over political news articles.
 
 ### fastText: [Text Classification](https://github.com/pkipsy/news-lens/blob/master/Exploratory-Analysis/TextClassification-fastText.ipynb)
 Runs Facebook's [fastText](https://github.com/facebookresearch/fastText/tree/master/python), an unsupervised learning algorithm for efficiently computing word embeddings.
 
 ### scikit-learn: [Decision Tree](https://github.com/pkipsy/news-lens/blob/master/Exploratory-Analysis/Decision-Tree.ipynb)
-Implements a simple decision tree on the All Sides Crawl with scikit-learn.
+Implements a simple decision tree on the All Sides Crawl with [scikit-learn](http://scikit-learn.org/stable/).
