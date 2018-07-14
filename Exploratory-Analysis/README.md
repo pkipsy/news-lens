@@ -1,7 +1,7 @@
 # Exploratory Notebooks
 
 ### Media Bias: [Score Comparison](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/05%20-%20FilterBubbles-MediaBias.ipynb)
-Compares All Sides Media's [bias scores](https://www.allsides.com/media-bias/media-bias-ratings) to the numerical ratings reported in the [academic article],(http://sethrf.com/files/bubbles.pdf) "Filter Bubbles, Echo Chambers, and Online News Consumption".
+Compares All Sides Media's [bias scores](https://www.allsides.com/media-bias/media-bias-ratings) to the numerical ratings reported in the [academic article](http://sethrf.com/files/bubbles.pdf), "Filter Bubbles, Echo Chambers, and Online News Consumption".
 
 ### Google Cloud: [Sentiment Analysis](https://github.com/pkipsy/news-lens/blob/master/Visualization/Sentiment%2BAnalysis.ipynb)
 Examines the distribution of sentiment across news articles, an analysis made possible by Google's [Natural Language API](https://cloud.google.com/natural-language/). 
