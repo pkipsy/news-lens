@@ -1,5 +1,3 @@
-# News Scraping 
-
 ## Scrapers
 
 ### Beautiful Soup: [All Sides Headline Crawler](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/01%20-%20AllSidesMedia-HeadlineCrawler.ipynb)
@@ -22,5 +20,5 @@ This notebook uses the open source Python library, [NewsPlease](https://github.c
 ### BoilerPipe: [Article Extraction](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/03%20-%20BoilerPipe-ArticleExtraction.ipynb)
 [Boilerpipe](http://boilerpipe-web.appspot.com/) offers an alternative method for article extraction.
 
-# Future Projects
+## Future Projects
 Having tested many combinations of news crawlers and extractors, my top recommendation for all-around functionality is [NewsPaper3k](https://github.com/codelucas/newspaper) (July 2018).
