@@ -22,3 +22,20 @@ Next, the app recommends recent articles that are on the same topic, but from so
 Finally, the app renders an interactive visualization of the conversation, showing similarities and differences in how liberal and conservative sources are talking about the same story.
 <p align="center"><img src="https://github.com/pkipsy/news-lens/blob/master/docs/images/newslens-visualize.png?raw=true" width=75%></p>
 
+## How It Works
+Interested in learning more about this how this app works? Check out the jupyter notebooks in the project folders:
+
+### News Scraping
+The [News Scraping](https://github.com/pkipsy/news-lens/tree/master/News-Scraping) notebooks delve into the choice of data source, as well as methods of data collection and extraction.
+
+### Exploratory Analysis
+The [Exploratory Analysis](https://github.com/pkipsy/news-lens/tree/master/Exploratory-Analysis) notebooks cover a range of early-stage investigations of the scraped texts, including sentiment analysis, named entity recognition, topic modeling, and word embeddings.
+
+### Visualization
+The [Visualization](https://github.com/pkipsy/news-lens/tree/master/Visualization) notebooks explore a variety of interactive visualization techniques for text data.
+
+### Classification
+The [Classification](https://github.com/pkipsy/news-lens/tree/master/Classification) notebooks run through data preprocessing, feature engineering, feature pipelines, parameter tuning, model performance, and model comparison.
+
+### Web App
+The [Web App](https://github.com/pkipsy/newslens-app) repo contains the Flask app deployed on Amazon Web Services.
