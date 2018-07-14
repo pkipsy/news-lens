@@ -1,10 +1,11 @@
 # All Sides Media Crawl
 
 ### [Preprocessing](https://github.com/pkipsy/news-lens/blob/master/Classification/Classification-Preprocessing.ipynb)
-Cleans text from the All Sides crawl with *pandas*. Performs feature engineering - added features include sentiment (valence and magnitude), text readability, text length, and publication date. Saves cleaned file to CSV.
+Cleans text from the All Sides crawl with [pandas](https://pandas.pydata.org/). Performs feature engineering - added features include sentiment (valence and magnitude), text readability, text length, and publication date. Saves cleaned file to CSV.
 
 ### [Classification](https://github.com/pkipsy/news-lens/blob/master/Classification/Classification-Models.ipynb)
-Defines and explores text features and how they vary across bias groups, using *numpy*, *matplotlib*, and *seaborn*. Creates a classifier pipeline with *sklearn* incorporating multiple features. Implements stratified k-folds cross validation and parameter grid search. Generates a classification report, noting precision, recall, and f1 score. Plots a confusion matrix and a learning curve over training. Compares performance between Multinomial Naive Bayes and Linear SVC.
+Defines and explores text features and how they vary across bias groups, using [numpy](http://www.numpy.org/), [matplotlib](
+https://matplotlib.org/), and [seaborn](https://seaborn.pydata.org/). Creates a classifier pipeline with [sklearn](http://scikit-learn.org/stable/) incorporating multiple features. Implements stratified k-folds cross validation and parameter grid search. Generates a classification report, noting precision, recall, and f1 score. Plots a confusion matrix and a learning curve over training. Compares performance between Multinomial Naive Bayes and Linear SVC.
 
 ### [Model Comparison](https://github.com/pkipsy/news-lens/blob/master/Classification/Model-Comparison.ipynb)
 Compares the classification performance of a variety of learning algorithms (including SVC, Bernoulli, Multinomial Naive Bayes, and word embeddings) and text transformations (bag-of-words vs TF-IDF).
