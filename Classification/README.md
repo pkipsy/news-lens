@@ -1,4 +1,6 @@
-# All Sides Media Crawl
+# Predicting the political bias of news articles with linear models
+
+## All Sides Media Crawl
 
 ### [Preprocessing](https://github.com/pkipsy/news-lens/blob/master/Classification/Classification-Preprocessing.ipynb)
 
@@ -23,7 +25,7 @@ Compares the classification performance of a variety of learning algorithms (inc
 
 <p align="center"><img src="https://github.com/pkipsy/news-lens/blob/master/docs/images/newslens-modelcomparison.png?raw=true" width=75%></p>
 
-# Webhose.io Crawl
+## Webhose.io Crawl
 
 <p align="center"><img src="https://github.com/pkipsy/news-lens/blob/master/docs/images/newslens-crawls.png?raw=true" width=75%></p>
 
