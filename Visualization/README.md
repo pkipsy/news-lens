@@ -14,4 +14,4 @@ The visualization showcases key topics that are of interest to both sides, as we
 These differences are visible both for very common words (like <i>Donald Trump</i>) and rarer words (like <i>CBO</i>). 
 
 ## General Note
-All notebooks are computationally intensive. These were run either on Google Cloud's [Data Lab](https://cloud.google.com/datalab/) or Amazon's [Sagemaker](https://aws.amazon.com/sagemaker/). Google's free [Colaboratory](https://colab.research.google.com/) is also a decent option.
+These notebooks are computationally intensive and were run either on Google Cloud's [Data Lab](https://cloud.google.com/datalab/) or Amazon's [Sagemaker](https://aws.amazon.com/sagemaker/). Google's free [Colaboratory](https://colab.research.google.com/) is also a decent option.
