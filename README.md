@@ -23,19 +23,19 @@ Finally, the app renders an interactive visualization of the conversation, showi
 <p align="center"><img src="https://github.com/pkipsy/news-lens/blob/master/docs/images/newslens-visualize.png?raw=true" width=75%></p>
 
 ## How It Works
-Interested in learning more about this how this app works? Check out the jupyter notebooks in the project folders:
+Interested in learning more about this how this app works? Check out the jupyter notebooks in the project folders.
 
 ### News Scraping
-The [News Scraping](https://github.com/pkipsy/news-lens/tree/master/News-Scraping) notebooks delve into the choice of data source, as well as methods of data collection and extraction.
+[Notebooks](https://github.com/pkipsy/news-lens/tree/master/News-Scraping) delve into the choice of data source, as well as methods of data collection and extraction. **Tools**: Beautiful Soup, NewsPlease, Newspaper3k, BoilerPipe, Google Results Scraper.
 
 ### Exploratory Analysis
-The [Exploratory Analysis](https://github.com/pkipsy/news-lens/tree/master/Exploratory-Analysis) notebooks cover a range of early-stage investigations of the scraped texts, including sentiment analysis, named entity recognition, topic modeling, and word embeddings.
+[Notebooks](https://github.com/pkipsy/news-lens/tree/master/Exploratory-Analysis) cover a range of early-stage investigations of the scraped texts, including sentiment analysis, named entity recognition, topic modeling, and word embeddings. **Tools**: Google Natural Language API, Gensim, fastText, Sklearn.
 
 ### Visualization
-The [Visualization](https://github.com/pkipsy/news-lens/tree/master/Visualization) notebooks explore a variety of interactive visualization techniques for text data.
+[Notebooks](https://github.com/pkipsy/news-lens/tree/master/Visualization) explore a variety of interactive visualization techniques for text data. **Tools**: ScatterText, PyLDAViz.
 
 ### Classification
-The [Classification](https://github.com/pkipsy/news-lens/tree/master/Classification) notebooks run through data preprocessing, feature engineering, feature pipelines, parameter tuning, model performance, and model comparison.
+The [Classification](https://github.com/pkipsy/news-lens/tree/master/Classification) notebooks run through data preprocessing, feature engineering, feature pipelines, parameter tuning, model performance, and model comparison. **Tools**: Sklearn, NumPy, SciPy, Matplotlib, Seaborn, gLoVe, word2vec, shortText.
 
 ### Web App
-The [Web App](https://github.com/pkipsy/newslens-app) repo contains the Flask app deployed on Amazon Web Services.
+The [Web App](https://github.com/pkipsy/newslens-app) repo contains the Flask app deployed on Amazon Web Services.  **Tools**: Flask, Bootstrap, HTML, CSS, js.
