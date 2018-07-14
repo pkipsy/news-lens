@@ -11,7 +11,7 @@ This notebook illustrates differences between left and right-leaning media with 
 The visualization showcases key topics that are of interest to both sides, as well as topics that are used more frequently by one side or the other. 
 These differences are visible both for very common words (like <i>Donald Trump</i>) and rarer words (like <i>CBO</i>). 
 
-### [Sentiment+Analysis](https://github.com/pkipsy/news-lens/blob/master/Visualization/Sentiment%2BAnalysis.ipynb)
+### [Sentiment Analysis](https://github.com/pkipsy/news-lens/blob/master/Visualization/Sentiment%2BAnalysis.ipynb)
 This notebook examines the distribution of sentiment across news articles, an analysis made possible by Google's [Natural Language API](https://cloud.google.com/natural-language/). 
 
 * Computationally intensive. Run on Google Cloud's [Data Lab](https://cloud.google.com/datalab/) or Amazon's [Sagemaker](https://aws.amazon.com/sagemaker/).
