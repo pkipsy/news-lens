@@ -1,8 +1,12 @@
 # Data Source
-The NewsLens app is closely modeled on a site called [All Sides Media](https://www.allsides.com/unbiased-balanced-news), which features hand-curated daily headline roundups from the left, right, and center. All Sides provide both news stories and carefully researched estimates of their bias. It’s the perfect setup for training a supervised classifier. To replicate their recipe, I scraped two-years worth of articles and their bias labels.
+The NewsLens app is closely modeled on a site called [All Sides Media](https://www.allsides.com/unbiased-balanced-news), which features hand-curated daily headline roundups from the left, right, and center.  
+
 <p align="center"><img src="https://github.com/pkipsy/news-lens/blob/master/docs/images/newslens-allsides_example.png?raw=true" width=75%></p>
 
+All Sides provide both news stories and carefully researched estimates of their bias. It’s the perfect data source for training a supervised classifier.
+
 <p align="center"><img src="https://github.com/pkipsy/news-lens/blob/master/docs/images/newslens-allsides_bias.png?raw=true" width=75%></p>
+
 # Data Collection
 
 ### Beautiful Soup: [All Sides Headline Crawler](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/01%20-%20AllSidesMedia-HeadlineCrawler.ipynb)
