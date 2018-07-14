@@ -1,4 +1,4 @@
-# Predicting the political bias of news articles with linear models
+# Predicting the political bias of news articles
 
 ## All Sides Media Crawl
 
