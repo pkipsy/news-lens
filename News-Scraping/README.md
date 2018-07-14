@@ -1,4 +1,4 @@
-## Scrapers
+# Scrapers
 
 ### Beautiful Soup: [All Sides Headline Crawler](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/01%20-%20AllSidesMedia-HeadlineCrawler.ipynb)
 This notebook showcases the Beautiful Soup spider used to crawl [All Sides Media](https://www.allsides.com/story/admin). This spider extracts information about the last two years of headline roundups. 
@@ -12,7 +12,7 @@ The initial run pulled 30,000+ news articles.
 ### Google Results Scraper: [Source ID](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/04%20-%20Source-Classification.ipynb)
 [Google Results Scraper](https://github.com/NikolaiT/GoogleScraper) is deployed to identify the website url for all the news sources rated by All Sides Media.
 
-## Extractors
+# Extractors
 
 ### NewsPlease: [Article Extraction](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/02%20-%20NewsPlease-ArticleExtraction.ipynb)
 This notebook uses the open source Python library, [NewsPlease](https://github.com/fhamborg/news-please), to extract information from articles harvested by the Beautiful Soup crawler.
@@ -20,5 +20,5 @@ This notebook uses the open source Python library, [NewsPlease](https://github.c
 ### BoilerPipe: [Article Extraction](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/03%20-%20BoilerPipe-ArticleExtraction.ipynb)
 [Boilerpipe](http://boilerpipe-web.appspot.com/) offers an alternative method for article extraction.
 
-## Future Projects
+# Future Projects
 Having tested many combinations of news crawlers and extractors, my top recommendation for all-around functionality is [NewsPaper3k](https://github.com/codelucas/newspaper) (July 2018).
