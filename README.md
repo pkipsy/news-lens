@@ -23,7 +23,7 @@ Finally, the app renders an interactive visualization of the conversation, showi
 <p align="center"><img src="https://github.com/pkipsy/news-lens/blob/master/docs/images/newslens-visualize.png?raw=true" width=75%></p>
 
 ## Notebooks
-Interested in learning more about this how this app works? Check out the jupyter notebooks in the project folders.
+Interested in learning more about this project? Check out the jupyter notebooks in the project folders.
 
 ### News Scraping
 The [News Scraping](https://github.com/pkipsy/news-lens/tree/master/News-Scraping) notebooks delve into the choice of data source, as well as methods of data collection and extraction. <br/>
