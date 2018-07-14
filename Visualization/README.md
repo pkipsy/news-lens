@@ -1,5 +1,7 @@
 # Visualization Notebooks
 
+The visualizations produced in these notebooks can be viewed and explored at [news-lens.online/data](http://news-lens.online/data).
+
 ### [LDA-Viz](https://github.com/pkipsy/news-lens/blob/master/Visualization/LDA-Viz.ipynb)
 This notebook creates interactive topic model visualizations with the open-source Python library [PyLDAviz](https://github.com/bmabey/pyLDAvis). 
 Separate models and visualizations are constructed for left, right, and center-leaning news articles, from the [All Sides Media](https://www.allsides.com/unbiased-balanced-news) headline crawl.
