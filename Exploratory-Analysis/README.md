@@ -12,7 +12,7 @@ Extracts and classifies entities in text collections and records their relative 
 Plots differences between conservative and liberal entities.
 
 ### gensim: [Topic Modeling](https://github.com/pkipsy/news-lens/blob/master/Exploratory-Analysis/Topic-Modeling.ipynb)
-A simple exercise implementing topic models with [gensim](https://radimrehurek.com/gensim/) over political news articles.
+Creates topic models with [gensim](https://radimrehurek.com/gensim/) using the political news articles drawn from the All Sides crawl.
 
 ### fastText: [Text Classification](https://github.com/pkipsy/news-lens/blob/master/Exploratory-Analysis/TextClassification-fastText.ipynb)
 Runs Facebook's [fastText](https://github.com/facebookresearch/fastText/tree/master/python), an unsupervised learning algorithm for efficiently computing word embeddings.
