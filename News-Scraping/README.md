@@ -18,5 +18,5 @@ This notebook uses the open source Python library, [NewsPlease](https://github.c
 A series of crawls configured to extract English language texts published in the US over the last thirty days from select media organizations, using [Webhose.io](https://webhose.io/web-content-api).
 The initial run pulled 30,000+ news articles.
 
-### Note
-Having tested many combinations of news crawlers and extractors, my recommendation - as of July 2018 - is [NewsPaper3k](https://github.com/codelucas/newspaper).
+### Future Projects
+Having tested many combinations of news crawlers and extractors, my top recommendation for all-around functionality is [NewsPaper3k](https://github.com/codelucas/newspaper) (July 2018).
