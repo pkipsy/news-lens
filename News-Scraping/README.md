@@ -1,5 +1,7 @@
 # Scrapers
 
+<p align="center"><img src="https://github.com/pkipsy/news-lens/blob/master/docs/images/newslens-crawls.png?raw=true" width=75%></p>
+
 ### Beautiful Soup: [All Sides Headline Crawler](https://github.com/pkipsy/news-lens/blob/master/News-Scraping/01%20-%20AllSidesMedia-HeadlineCrawler.ipynb)
 This notebook showcases the Beautiful Soup spider used to crawl [All Sides Media](https://www.allsides.com/story/admin). This spider extracts information about the last two years of headline roundups. 
 For every roundup, it harvests the All Sides' headline and short summary, as well as information about the linked articles (such as their source, their source's bias, their source's headline, and so on).
