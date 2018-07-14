@@ -11,4 +11,5 @@ This notebook illustrates differences between left and right-leaning media with 
 The visualization showcases key topics that are of interest to both sides, as well as topics that are used more frequently by one side or the other. 
 These differences are visible both for very common words (like <i>Donald Trump</i>) and rarer words (like <i>CBO</i>). 
 
-* Computationally intensive. Run on Google Cloud's [Data Lab](https://cloud.google.com/datalab/) or Amazon's [Sagemaker](https://aws.amazon.com/sagemaker/).
+## General Note
+All notebooks are computationally intensive. These were run either on Google Cloud's [Data Lab](https://cloud.google.com/datalab/) or Amazon's [Sagemaker](https://aws.amazon.com/sagemaker/). Google's free [Colaboratory](https://colab.research.google.com/) is also a decent option.
